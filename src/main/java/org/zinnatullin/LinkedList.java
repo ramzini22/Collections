@@ -5,16 +5,10 @@ public class LinkedList implements List{
     private int size=0;
     private Node first=null;
     private Node last=null;
-
-
-
-
     @Override
     public Car get(Car car) {
         return node_from_object(car).value;
     }
-
-
     @Override
     public boolean add(Car car) {
         if(size==0){
@@ -28,7 +22,6 @@ public class LinkedList implements List{
         size++;
         return true;
     }
-
     @Override
     public boolean add_from_index(Car car, int index) {
         if(index_security(index) || index==size){
@@ -56,7 +49,6 @@ public class LinkedList implements List{
         }
         return false;
     }
-
     @Override
     public boolean delete_from_index(int index) {
         if(index_security(index)){
@@ -65,7 +57,6 @@ public class LinkedList implements List{
         }
         return false;
     }
-
     @Override
     public boolean delete(Car car) {
         Node node=node_from_object(car);
@@ -74,15 +65,13 @@ public class LinkedList implements List{
         }
         return false;
     }
-
     @Override
     public Car get_from_index(int index) {
         Node node=node_from_index(index);
-        if(node.value!=null)
+        if(node!=null && node!=null)
             return node.value;
         else return null;
     }
-
     public Node node_from_index(int index) {
         if(index_security(index)){
             Node node=first;
@@ -98,21 +87,17 @@ public class LinkedList implements List{
     public int size() {
         return size;
     }
-
     @Override
     public void clear() {
         size=0;
         first=null;
         last=null;
     }
-
-
     private boolean index_security(int index){
-        if(index<0 || index>=size)
+        if((index<0 || index>=size) && first!=null)
             return false;
         return true;
     }
-
     private boolean delete_node(Node node){
         if(node.equals(first)){
             first=node.next;
@@ -129,7 +114,6 @@ public class LinkedList implements List{
         size--;
         return true;
     }
-
     private Node node_from_object(Car car){
         Node node=first;
         for(int i=0;i<size;i++){
@@ -138,7 +122,6 @@ public class LinkedList implements List{
         }
         return null;
     }
-
     private class Node{
         Node before;
         Car value;
