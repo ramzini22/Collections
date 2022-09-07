@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="tests - CarTest 0.1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zinnatullin/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArraySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArraySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zinnatullin/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zinnatullin/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +25,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="tests" />
+        <entry key="$PROJECT_DIR$" value="tests_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,15 +54,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/magic/IdeaProjects/Collections — копия (3) — копия1"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,7 +75,22 @@
       <recent name="org.zinnatullin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="JUnit.ArrayListTest (1)">
+    <configuration name="ArrayListTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections — копия (3) — копия1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections — копия (3)" />
       <extension name="coverage">
@@ -101,6 +122,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections — копия (3) — копия1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections — копия (3) — копия" />
       <extension name="coverage">
@@ -118,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayListTest (1)" />
+        <item itemvalue="JUnit.LinkedListTest (1)" />
         <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.ArrayListTest.add" />
-        <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.ArrayListTest.add" />
         <item itemvalue="JUnit.ArrayListTest" />
       </list>

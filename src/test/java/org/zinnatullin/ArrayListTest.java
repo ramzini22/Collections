@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayListTest extends org.zinnatullin.Test {
     private final int N_T = ARRAY_SIZE;//   NUMBERS_OF_TESTS
-    private ArrayList cars;
+    private ArrayList<Car> cars;
 
     @BeforeEach
     void setUp() {

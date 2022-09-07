@@ -1,5 +1,5 @@
 package org.zinnatullin;
-public class Car {
+public class Car implements Comparable<Car> {
     private String brand;
     private int year;
 
@@ -14,5 +14,10 @@ public class Car {
                 "brand='" + brand + '\'' +
                 ", year=" + year +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Car o) {
+        return brand.compareTo(o.brand);
     }
 }

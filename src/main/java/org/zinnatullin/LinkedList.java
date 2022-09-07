@@ -1,31 +1,55 @@
 package org.zinnatullin;
 import java.util.Iterator;
 
-public class LinkedList implements List{
+public class LinkedList<T> implements List<T>{
     private int size=0;
     private Node first=null;
     private Node last=null;
+
     @Override
-    public Car get(Car car) {
-        return node_from_object(car).value;
+    public Iterator<T> iterator() {
+        return new Iterator<T>(){
+            private Node node=first;
+
+            @Override
+            public boolean hasNext() {
+                return node!=null;
+            }
+
+            @Override
+            public T next() {
+                T t=(T)first.value;
+                node=node.next;
+                return t;
+            }
+        };
     }
+
+
     @Override
-    public boolean add(Car car) {
+    public T get(T t) {
+        return (T)node_from_object(t).value;
+    }
+
+
+    @Override
+    public boolean add(T t) {
         if(size==0){
-            first=new Node(null, car, null);
+            first=new Node(null, t, null);
             last=first;
         }
         else{
-            last.next=new Node(last, car, null);
+            last.next=new Node(last, t, null);
             last=last.next;
         }
         size++;
         return true;
     }
+
     @Override
-    public boolean add_from_index(Car car, int index) {
+    public boolean add_from_index(T t, int index) {
         if(index_security(index) || index==size){
-            Node node= new Node(null,car, null);
+            Node node= new Node(null,t, null);
             if(index==0){
                 first.before=node;
                 node.next=first;
@@ -49,29 +73,33 @@ public class LinkedList implements List{
         }
         return false;
     }
+
     @Override
     public boolean delete_from_index(int index) {
         if(index_security(index)){
             Node node=node_from_index(index);
-                return delete_node(node);
+            return delete_node(node);
         }
         return false;
     }
+
     @Override
-    public boolean delete(Car car) {
-        Node node=node_from_object(car);
+    public boolean delete(T t) {
+        Node node=node_from_object(t);
         if(node!=null){
             return delete_node(node);
         }
         return false;
     }
+
     @Override
-    public Car get_from_index(int index) {
+    public T get_from_index(int index) {
         Node node=node_from_index(index);
-        if(node!=null && node!=null)
-            return node.value;
+        if(node!=null)
+            return (T) (node.value);
         else return null;
     }
+
     public Node node_from_index(int index) {
         if(index_security(index)){
             Node node=first;
@@ -87,17 +115,21 @@ public class LinkedList implements List{
     public int size() {
         return size;
     }
+
     @Override
     public void clear() {
         size=0;
         first=null;
         last=null;
     }
+
+
     private boolean index_security(int index){
         if(index<0 || index>=size || first==null)
             return false;
         return true;
     }
+
     private boolean delete_node(Node node){
         if(node.equals(first)){
             first=node.next;
@@ -114,20 +146,22 @@ public class LinkedList implements List{
         size--;
         return true;
     }
-    private Node node_from_object(Car car){
+
+    private Node node_from_object(T t){
         Node node=first;
         for(int i=0;i<size;i++){
-            if(node.value.equals(car))return node;
+            if(node.value.equals(t))return node;
             node=node.next;
         }
         return null;
     }
-    private class Node{
+
+    private class Node<T>{
         Node before;
-        Car value;
+        T value;
         Node next;
 
-        public Node(Node before, Car value, Node next) {
+        public Node(Node before, T value, Node next) {
             this.before = before;
             this.value = value;
             this.next = next;

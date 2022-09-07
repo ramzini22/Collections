@@ -2,24 +2,24 @@ package org.zinnatullin;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class ArrayList implements List{
+public class ArrayList<T> implements List<T>{
     private int size=0;
-    private Car[] array=new Car[10];
+    private Object[] array=new Object[10];
 
 
     @Override
-    public boolean add(Car car) {
+    public boolean add(T t) {
         array_security();
-        array[size]=car;
+        array[size]=t;
         size++;
         return true;
     }
     @Override
-    public boolean add_from_index(Car car, int index) {
+    public boolean add_from_index(T t, int index) {
         array_security();
         if(index_security(index) || index==size){
             System.arraycopy(array, index, array, index + 1, size - index);	//	передвигает size-index элементов на b+1 ячейки
-            array[index]=car;
+            array[index]=t;
             size++;
             return true;
         }
@@ -38,20 +38,20 @@ public class ArrayList implements List{
     }
 
     @Override
-    public boolean delete(Car car) {
-        int index = find_Object_from_index(car);
+    public boolean delete(T t) {
+        int index = find_Object_from_index(t);
         if(index!=-1)return delete_from_index(index);
         return false;
     }
 
     @Override
-    public Car get_from_index(int i) {
-        return array[i];
+    public T get_from_index(int i) {
+        return (T) array[i];
     }
 
     @Override
-    public Car get(Car car) {
-        int index = find_Object_from_index(car);
+    public T get(T t) {
+        int index = find_Object_from_index(t);
         if(index != -1) return get_from_index(index);
         return null;
     }
@@ -63,8 +63,24 @@ public class ArrayList implements List{
 
     @Override
     public void clear() {
-        array=new Car[10];
+        array=new Object[10];
         size=0;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            int index = 0;
+            @Override
+            public boolean hasNext() {
+                return index<size;
+            }
+
+            @Override
+            public T next() {
+                return (T) array[index++];
+            }
+        };
     }
 
     private void array_security(){
@@ -73,14 +89,15 @@ public class ArrayList implements List{
     };
 
     private boolean index_security(int index){
-            if(index<0 || index>=size)return false;
-            return true;
+        if(index<0 || index>=size)return false;
+        return true;
     };
 
-    private int find_Object_from_index(Car car){
+    private int find_Object_from_index(T t){
         for (int i=0;i<size;i++){
-            if(car.equals(array[i]))
+            if(t.equals(array[i]))
                 return i;}
         return -1;
     }
+
 }

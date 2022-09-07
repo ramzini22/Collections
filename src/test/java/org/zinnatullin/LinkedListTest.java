@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LinkedListTest extends org.zinnatullin.Test {
     private final int N_T = ARRAY_SIZE;//   NUMBERS_OF_TESTS
-    private LinkedList cars;
+    private LinkedList<Car> cars;
 
     @BeforeEach
     void setUp() {
@@ -19,7 +19,7 @@ class LinkedListTest extends org.zinnatullin.Test {
         }
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void add() {
         int size = cars.size();
         Car car1 = new Car("B", 2);
@@ -29,7 +29,7 @@ class LinkedListTest extends org.zinnatullin.Test {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void add_from_index() {
         int size = cars.size();
 
@@ -47,7 +47,7 @@ class LinkedListTest extends org.zinnatullin.Test {
         assertEquals(size + 3, cars.size());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void delete_from_index() {
         int size = cars.size();
 
@@ -60,11 +60,11 @@ class LinkedListTest extends org.zinnatullin.Test {
 
         assertEquals(first, cars.get_from_index(10));
         assertEquals(third, cars.get_from_index(11));
-        assertEquals(last, cars.get_from_index(cars.size()-1));
+        assertEquals(last, cars.get_from_index(cars.size() - 1));
         assertEquals(size - 1, cars.size());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void delete() {
         int size = cars.size();
 
@@ -82,7 +82,7 @@ class LinkedListTest extends org.zinnatullin.Test {
         assertEquals(size + 2, cars.size());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void get_from_index() {
         int size = cars.size();
         Car car = cars.get_from_index(cars.size() - 1);
@@ -91,7 +91,7 @@ class LinkedListTest extends org.zinnatullin.Test {
         assertEquals(size + 1, cars.size());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void get() {
         int size = cars.size();
         Car car1 = new Car("w", 34);
@@ -100,7 +100,7 @@ class LinkedListTest extends org.zinnatullin.Test {
         assertEquals(size + 1, cars.size());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void size() {
         int size = cars.size();
         for (int i = 0; i < 20; i++)

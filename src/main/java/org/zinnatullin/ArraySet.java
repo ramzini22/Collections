@@ -3,39 +3,53 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Objects;
 
-public class ArraySet implements Set{
+public class ArraySet<T> implements Set<T>{
     private int size=0;
     private Object[] array=new Object[16];
 
 
     @Override
-    public boolean add(Car car) {
+    public boolean add(T t) {
         if(size>=array.length*0.75)
             increase_array();
-        if(add(car, array)){
+        if(add(t, array)){
             size++;
             return true;
         }
         return false;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ArraySet<?> arraySet = (ArraySet<?>) o;
+        return size == arraySet.size && Arrays.equals(array, arraySet.array);
+    }
 
-    private boolean add(Car car, Object[] array2){
-        int position=get_element_position(car);
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(size);
+        result = 31 * result + Arrays.hashCode(array);
+        return result;
+    }
+
+    private boolean add(T t, Object[] array2){
+        int position=get_element_position(t);
         if(array2[position]==null){
-            array2[position]=new Entry(car, null);
+            array2[position]=new Entry(t, null);
             return true;
         }
-        else if(((Entry) array2[position]).value.equals(car)){
+        else if(((Entry) array2[position]).value.equals(t)){
             return false;
         }
         else {
             Entry entry=(Entry)array2[position];
             while (true ){
-                if(entry.value.equals(car)){
+                if(entry.value.equals(t)){
                     return false;
                 }else if(entry.next==null){
-                    entry.next=new Entry(car, null);
+                    entry.next=new Entry(t, null);
                     return true;
                 }else{
                     entry=entry.next;
@@ -46,20 +60,20 @@ public class ArraySet implements Set{
 
 
     @Override
-    public boolean delete(Car car) {
-        int position=get_element_position(car);
+    public boolean delete(T t) {
+        int position=get_element_position(t);
         if(array[position]==null){
             return false;
         }
         Entry entry=(Entry)array[position];
         Entry next=entry.next;
-        if (entry.value.equals(car)){
+        if (entry.value.equals(t)){
             array[position]=next;
             size--;
             return true;
         }
         while (next!=null){
-            if(next.value.equals(car)){
+            if(next.value.equals(t)){
                 entry.next=next.next;
                 size--;
                 return true;
@@ -83,9 +97,36 @@ public class ArraySet implements Set{
         array=new Object[16];
     }
 
+    @Override
+    public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            int index=0;
+            int array_index=0;
+            Entry entry;
 
-    private int get_element_position(Car car){
-        return Math.abs(car.hashCode()%array.length);
+            @Override
+            public boolean hasNext() {
+                return index<size;
+            }
+
+            @Override
+            public T next() {
+                while (array[array_index]==null)
+                    array_index++;
+                if(entry==null)
+                    entry=(Entry) array[array_index];
+                T result=entry.value;
+                entry=entry.next;
+                if (entry==null)
+                    array_index++;
+                index++;
+                return entry.value;
+            }
+        };
+    }
+
+    private int get_element_position(T t){
+        return Math.abs(t.hashCode()%array.length);
     }
 
     private void increase_array(){
@@ -101,10 +142,10 @@ public class ArraySet implements Set{
     }
 
     private class Entry{
-        Car value;
+        T value;
         Entry next;
 
-        public Entry(Car value, Entry next) {
+        public Entry(T value, Entry next) {
             this.value = value;
             this.next = next;
         }
