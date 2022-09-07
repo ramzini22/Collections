@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798373df-9033-4c43-b068-59529afeaef3" name="Changes" comment="develop - bug 2 0.1">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" afterDir="false" />
+    <list default="true" id="798373df-9033-4c43-b068-59529afeaef3" name="Changes" comment="tests - CarTest 0.1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zinnatullin/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zinnatullin/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,14 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -22,6 +32,10 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="3ea9ef86047dc1b684ab1ae71272a18348c4d605" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,21 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.zinnatullin" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.zinnatullin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections" />
+  <component name="RunManager" selected="JUnit.ArrayListTest">
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections — копия (3)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.zinnatullin.*" />
@@ -54,14 +76,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.LinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArrayListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections" />
+    <configuration name="ArrayListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections — копия (3)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.zinnatullin.*" />
@@ -69,7 +91,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ListTest" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArrayListTest" />
       <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -78,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListTest.add" />
-        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArrayListTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662533272867</updated>
-      <workItem from="1662533274469" duration="1953000" />
+      <workItem from="1662533274469" duration="1355000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1662533334680</created>
@@ -100,21 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662533334680</updated>
     </task>
-    <task id="LOCAL-00002" summary="develop - List 0.1">
-      <created>1662534661530</created>
+    <task id="LOCAL-00002" summary="tests - CarTest 0.1">
+      <created>1662545989761</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1662534661530</updated>
+      <updated>1662545989761</updated>
     </task>
-    <task id="LOCAL-00003" summary="develop - bug 2 0.1">
-      <created>1662574115972</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1662574115972</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,12 +145,31 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="tests" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <MESSAGE value="develop - List 0.1" />
-    <MESSAGE value="develop - bug 2 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="develop - bug 2 0.1" />
+    <MESSAGE value="tests - CarTest 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests - CarTest 0.1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Collections____3_$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1662547006918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
