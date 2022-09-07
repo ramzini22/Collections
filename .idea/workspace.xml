@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="798373df-9033-4c43-b068-59529afeaef3" name="Changes" comment="" />
+    <list default="true" id="798373df-9033-4c43-b068-59529afeaef3" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +18,17 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EQgYCxtbtlq76mrWMK8lhZQ0lN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,6 +43,11 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.zinnatullin" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +56,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662533272867</updated>
+      <workItem from="1662533274469" duration="1355000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1662533334680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662533334680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
