@@ -77,7 +77,10 @@ public class LinkedList implements List{
 
     @Override
     public Car get_from_index(int index) {
-        return node_from_index(index).value;
+        Node node=node_from_index(index);
+        if(node.value!=null)
+            return node.value;
+        else return null;
     }
 
     public Node node_from_index(int index) {
