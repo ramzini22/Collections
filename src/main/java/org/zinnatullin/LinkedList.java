@@ -94,7 +94,7 @@ public class LinkedList implements List{
         last=null;
     }
     private boolean index_security(int index){
-        if((index<0 || index>=size) && first!=null)
+        if(index<0 || index>=size || first==null)
             return false;
         return true;
     }
