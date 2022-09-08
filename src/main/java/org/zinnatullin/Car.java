@@ -8,6 +8,7 @@ public class Car implements Comparable<Car> {
         this.year = year;
     }
 
+    Car(){}
     @Override
     public String toString() {
         return "Car{" +
