@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="tests - CarTest 0.1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zinnatullin/ArraySetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zinnatullin/TreeSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="tests_2" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +68,7 @@
       <recent name="org.zinnatullin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListTest">
+  <component name="RunManager" selected="JUnit.TreeSetTest.testHashCode">
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections" />
       <extension name="coverage">
@@ -116,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySetTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
@@ -125,14 +124,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
-      <option name="METHOD_NAME" value="testEquals" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.TreeSetTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySetTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeSetTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +139,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.TreeSetTest" />
       <option name="METHOD_NAME" value="testHashCode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -150,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeSetTest.testHashCode" />
+        <item itemvalue="JUnit.TreeSetTest" />
         <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.ArraySetTest" />
         <item itemvalue="JUnit.ArraySetTest.iterator" />
-        <item itemvalue="JUnit.ArraySetTest.testHashCode" />
-        <item itemvalue="JUnit.ArraySetTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662578851653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tests - ArraySetTest 0.1">
+      <created>1662643567254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662643567254</updated>
+    </task>
+    <task id="LOCAL-00006" summary="develop - Car 0.2">
+      <created>1662643636161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662643636161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +219,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="tests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -219,12 +243,12 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="develop" />
+                  <option value="tests" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="tests" />
+                  <option value="develop" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -243,7 +267,9 @@
     <MESSAGE value="tests - CarTest 0.1" />
     <MESSAGE value="develop - generics" />
     <MESSAGE value="develop - generics2" />
-    <option name="LAST_COMMIT_MESSAGE" value="develop - generics2" />
+    <MESSAGE value="tests - ArraySetTest 0.1" />
+    <MESSAGE value="develop - Car 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="develop - Car 0.2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Collections____3_$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1662547006918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
