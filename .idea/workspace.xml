@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="798373df-9033-4c43-b068-59529afeaef3" name="Changes" comment="" />
+    <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="Collection 0.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,19 +13,147 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="e624f9c6c0ca89805b835bb127b6fa9a61b3a356" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2EQgYCxtbtlq76mrWMK8lhZQ0lN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/magic/IdeaProjects/Collections — копия (3) — копия1&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.zinnatullin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.zinnatullin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TreeSetTest.testHashCode">
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySetTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
+      <option name="METHOD_NAME" value="iterator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.TreeSetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.TreeSetTest" />
+      <option name="METHOD_NAME" value="testHashCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TreeSetTest.testHashCode" />
+        <item itemvalue="JUnit.TreeSetTest" />
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArraySetTest" />
+        <item itemvalue="JUnit.ArraySetTest.iterator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +162,116 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662533272867</updated>
+      <workItem from="1662533274469" duration="1355000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1662533334680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662533334680</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tests - CarTest 0.1">
+      <created>1662545989761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662545989761</updated>
+    </task>
+    <task id="LOCAL-00003" summary="develop - generics">
+      <created>1662578787169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662578787169</updated>
+    </task>
+    <task id="LOCAL-00004" summary="develop - generics2">
+      <created>1662578851653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662578851653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tests - ArraySetTest 0.1">
+      <created>1662643567254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662643567254</updated>
+    </task>
+    <task id="LOCAL-00006" summary="develop - Car 0.2">
+      <created>1662643636161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662643636161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="tests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="tests" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="tests - CarTest 0.1" />
+    <MESSAGE value="develop - generics" />
+    <MESSAGE value="develop - generics2" />
+    <MESSAGE value="tests - ArraySetTest 0.1" />
+    <MESSAGE value="develop - Car 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="develop - Car 0.2" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Collections____3_$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1662547006918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.zinnatullin.*</FILTER>
+    </SUITE>
   </component>
 </project>
