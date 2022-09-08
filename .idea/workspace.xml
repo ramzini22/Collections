@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="develop - generics2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/Collection.java" afterDir="false" />
+    <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="tests - CarTest 0.1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zinnatullin/ArraySetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,16 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/magic/IdeaProjects/Collections — копия (3) — копия1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/magic/IdeaProjects/Collections — копия (3) — копия1&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,24 +69,9 @@
       <recent name="org.zinnatullin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListTest (1)">
-    <configuration name="ArrayListTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections — копия (3) — копия1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.zinnatullin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArrayListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArrayListTest">
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections — копия (3)" />
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.zinnatullin.*" />
@@ -100,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections — копия (3)" />
+    <configuration name="ArraySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.zinnatullin.*" />
@@ -109,15 +94,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArrayListTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySetTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
+      <option name="METHOD_NAME" value="iterator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections — копия (3) — копия1" />
+    <configuration name="ArraySetTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.zinnatullin.*" />
@@ -125,14 +125,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.LinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections — копия (3) — копия" />
+    <configuration name="ArraySetTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.zinnatullin.*" />
@@ -140,19 +141,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.LinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
+      <option name="METHOD_NAME" value="testHashCode" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayListTest (1)" />
-        <item itemvalue="JUnit.LinkedListTest (1)" />
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.ArrayListTest.add" />
         <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArraySetTest" />
+        <item itemvalue="JUnit.ArraySetTest.iterator" />
+        <item itemvalue="JUnit.ArraySetTest.testHashCode" />
+        <item itemvalue="JUnit.ArraySetTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +217,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="tests" />
