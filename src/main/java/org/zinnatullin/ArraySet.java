@@ -120,11 +120,10 @@ public class ArraySet<T> implements Set<T>{
                 if (entry==null)
                     array_index++;
                 index++;
-                return entry.value;
+                return entry.value;     //  здесь ошибка
             }
         };
     }
-
     private int get_element_position(T t){
         return Math.abs(t.hashCode()%array.length);
     }

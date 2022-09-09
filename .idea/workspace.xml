@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="Collection 0.1" />
+    <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="Collection 0.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArraySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArraySet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,11 +36,15 @@
   <component name="GitRewordedCommitMessages">
     <option name="onto" value="e624f9c6c0ca89805b835bb127b6fa9a61b3a356" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2EQgYCxtbtlq76mrWMK8lhZQ0lN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,7 +59,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/magic/IdeaProjects/Collections — копия (3) — копия1&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/magic/IdeaProjects/Collections&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -66,7 +73,7 @@
       <recent name="org.zinnatullin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TreeSetTest.testHashCode">
+  <component name="RunManager" selected="JUnit.ArraySetTest.add">
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections" />
       <extension name="coverage">
@@ -82,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraySetTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
@@ -92,22 +99,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
       <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySetTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.zinnatullin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
-      <option name="METHOD_NAME" value="iterator" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,6 +116,22 @@
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
       <option name="MAIN_CLASS_NAME" value="org.zinnatullin.TreeSetTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zinnatullin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zinnatullin" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.TreeSetTest" />
+      <option name="METHOD_NAME" value="size" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,23 +154,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeSetTest.testHashCode" />
+        <item itemvalue="JUnit.ArraySetTest.add" />
         <item itemvalue="JUnit.TreeSetTest" />
+        <item itemvalue="JUnit.TreeSetTest.size" />
+        <item itemvalue="JUnit.TreeSetTest.testHashCode" />
         <item itemvalue="JUnit.ArrayListTest" />
-        <item itemvalue="JUnit.ArraySetTest" />
-        <item itemvalue="JUnit.ArraySetTest.iterator" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="798373df-9033-4c43-b068-59529afeaef3" name="Changes" comment="" />
+      <changelist id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="Collection 0.1" />
       <created>1662533272867</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662533272867</updated>
       <workItem from="1662533274469" duration="1355000" />
+      <workItem from="1662663776526" duration="75000" />
+      <workItem from="1662700611953" duration="61000" />
+      <workItem from="1662700676539" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1662533334680</created>
@@ -223,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="tests" />
+                        <option value="presentation" />
                       </list>
                     </value>
                   </entry>
