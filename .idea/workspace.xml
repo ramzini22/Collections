@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="Collection 0.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c6787aed-6eb6-490b-b506-026862b6349d" name="Changes" comment="Collection - 0.2">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArraySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zinnatullin/ArraySet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="presentation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +34,9 @@
   </component>
   <component name="GitRewordedCommitMessages">
     <option name="onto" value="e624f9c6c0ca89805b835bb127b6fa9a61b3a356" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/zinnatullin/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,8 +75,8 @@
       <recent name="org.zinnatullin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArraySetTest.add">
-    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArraySetTest">
+    <configuration name="ArraySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
@@ -83,7 +85,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.zinnatullin" />
-      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArrayListTest" />
+      <option name="MAIN_CLASS_NAME" value="org.zinnatullin.ArraySetTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArraySetTest" />
         <item itemvalue="JUnit.ArraySetTest.add" />
         <item itemvalue="JUnit.TreeSetTest" />
         <item itemvalue="JUnit.TreeSetTest.size" />
         <item itemvalue="JUnit.TreeSetTest.testHashCode" />
-        <item itemvalue="JUnit.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +280,9 @@
     <MESSAGE value="develop - generics2" />
     <MESSAGE value="tests - ArraySetTest 0.1" />
     <MESSAGE value="develop - Car 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="develop - Car 0.2" />
+    <MESSAGE value="hotfix - ArraySet 0.1" />
+    <MESSAGE value="Collection - 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection - 0.2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Collections____3_$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1662547006918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -120,7 +120,8 @@ public class ArraySet<T> implements Set<T>{
                 if (entry==null)
                     array_index++;
                 index++;
-                return entry.value;     //  здесь ошибка
+                if(entry==null)return null;
+                return entry.value;
             }
         };
     }
@@ -133,8 +134,8 @@ public class ArraySet<T> implements Set<T>{
         for(Object entry: array){
             Entry entry1=(Entry) entry;
             while (entry1!=null){
-                add(((Entry) entry1).value, newArray);
-                entry1=((Entry) entry1).next;
+                add((entry1).value, newArray);
+                entry1=(entry1).next;
             }
         }
         array=newArray;
